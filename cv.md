@@ -1,12 +1,14 @@
-# Nataliia Mys
-### Beginner Frontend Developer
+# Nataliia Mys  
+### Beginner Frontend Developer  
 
 ---
+
 ### Contact information:
 
-**Phone:** [+38 073 2270165](tel:+380732270165)
-**E-mail:** [nataliia.mys1@gmail.com](mailto:nataliia.mys1@gmail.com)
-[LinkedIn](https://www.linkedin.com/in/nataliia-mys-365558247/)
+**Phone:** [+38 073 2270165](tel:+380732270165)  
+**E-mail:** [nataliia.mys1@gmail.com](mailto:nataliia.mys1@gmail.com)  
+[LinkedIn](https://www.linkedin.com/in/nataliia-mys-365558247/)  
+
 ---
 
 ### Summary:
@@ -22,7 +24,7 @@ I believe, that my ability to learn and to gain new skills will lead me through 
 
 ### Code example:
 
-**Check string on palindrome:**
+**Check string on palindrome:**  
 *Function to check if string has the same spelling both forward and backward.*
 
 ```javascript
@@ -53,6 +55,3 @@ checkPalindrome('Level'); // It is a palindrome
 - English \- Advanced C1(according to the  [EPAM English test result](https://examinator.epam.com/Main/PersonalAssignments))
 - Ukrainian \- Native
 - German \- Basic
-
-
-
