@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>CV</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Nataliia Mys</h1>
+      <h2>Beginner Frontend Developer</h2>
+      <hr>
+    </header>
+    <main>
+      <h3>Contacts</h3>
+      <ul>
+        <li>Phone:&nbsp;<a href="tel:+38(073)2270165">+38(073)2270165</a></li>
+        <li>E-mail:&nbsp;<a href="mailto:nataliia.mys1@gmail.com">nataliia.mys1@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/nataliia-mys-365558247/" target="_blank">LinkedIn</a></li>
+      </ul>
+      <hr>
+      <h3>Summary</h3>
+      <div class="margin-side-container">
+        <p>I am a beginner Frontend Developer with a basic knowledge of HTML/CSS, JS.</p>
+        <p>I am interested to learn Frontend technologies such as Angular and ready to spend a lot of time to learn
+          programming .
+          My personal skills are responsibility, attentiveness, ability to work in a team, and patience.</p>
+        <p>I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a
+          proficient
+          Frontend Developer.</p>
+      </div>
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML, CSS</li>
+        <li>JavaScript Basics</li>
+        <li>Git, GitHub</li>
+      </ul>
+      <h3>Code example</h3>
+      <div class="margin-side-container">
+        <p><strong>Check string on palindrome:</strong><br> to check if string has the same spelling both forward and
+          backward.</p>
+         <pre>
+          <code>
+                    function checkPalindrome(string) {
+                    
+                      const reverseString = string.split('').reverse().join('');
+                      
+                      if(string.toLowerCase() === reverseString.toLowerCase()) {
+                        console.log('It is a palindrome');
+                      }
+                      else {
+                        console.log('It is not a palindrome');
+                      }
+                    }
+                    
+                    checkPalindrome('Hello World'); // It is not a palindrome
+                    checkPalindrome('Level'); // It is a palindrome
+                  </code>  
+                </pre>
+      </div>
+      <h3>Courses</h3>
+      <ul>
+        <li>HTML and CSS Tutorials on the <a href="https://www.w3schools.com/" target="_blank">w3schools</a> (in
+          progress)</li>
+        <li>JS, CSS, HTML, Git video courses on YouTube</li>
+        <li>RS School. JS/Frontend development course Stage 1(in progress)</li>
+      </ul>
+      <h3>Languages</h3>
+      <ul>
+        <li>English - Advanced C1(according to the <a href="https://examinator.epam.com/Main/PersonalAssignments"
+            target="_blank">EPAM English test result</a>) </li>
+        <li>Ukrainian - native</li>
+        <li>German - basic</li>
+      </ul>
+    </main>
+  </div>
+</body>
+
+</html>
