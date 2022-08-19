@@ -1,0 +1,56 @@
+.container {
+  background-color: rgb(247, 242, 242);
+  width: 1024px;
+  margin: 24px auto;
+  font-family: "Georgia", sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+  padding: 24px;
+}
+
+pre {
+  font-size: 0.9rem;
+  background-color: #e9dddd;
+}
+
+.margin-side-container {
+  padding: 0 16px;
+}
+
+footer {
+  background-color: gray;
+  padding: 18px 12px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  height: 32px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer>p {
+  font-weight: bold;
+}
+
+footer a:visited {
+  color: white;
+}
+
+footer .github-link {
+  display: flex;
+}
+
+footer .github-link p {
+  margin-left: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
